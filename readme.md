@@ -12,6 +12,6 @@ NOTE:
   click on it and you see the chart
   - Look at the Y Axis the percentages which dropped harshly are the steps you should consider looking at.
   - In the first two weeks most visitors stuck at step 3 and 4, then in the sequential weeks majority of the <br>
-  candidates passed the step 4 and stuck in step 5
+  candidates passed the step 4
 
 - finally to initiate the project just run "npm install" and "composer update" in the root of the project. 
