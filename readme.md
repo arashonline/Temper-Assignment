@@ -15,3 +15,9 @@ NOTE:
   candidates passed the step 4
 
 - finally to initiate the project just run "npm install" and "composer update" in the root of the project. 
+
+
+DUSK:
+Dusk requires the chromedriver binaries to be executable.
+ 
+ If you're having problems running Dusk, you should ensure the binaries are executable using the following command: chmod -R 0755 vendor/laravel/dusk/bin/
