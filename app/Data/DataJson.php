@@ -1,10 +1,9 @@
 <?php
 
-namespace App;
+namespace App\Data;
 
 
-
-class DataJson implements Data
+class DataJson implements DataInterface
 {
     public function loadData()
     {
@@ -2724,5 +2723,31 @@ class DataJson implements Data
                 ]
             ];
     }
+
+    public function setData($data)
+    {
+        // TODO: Implement setData() method.
+    }
+
+    public function getData()
+    {
+        // TODO: Implement getData() method.
+    }
+
+    public function getXAxis()
+    {
+        // TODO: Implement getXAxis() method.
+    }
+
+    public function cleanData($import_array, $total)
+    {
+        // TODO: Implement cleanData() method.
+    }
+
+    public function sortWeeklyData()
+    {
+        // TODO: Implement sortWeeklyData() method.
+    }
+
 
 }

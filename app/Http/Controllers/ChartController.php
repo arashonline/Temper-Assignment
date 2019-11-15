@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Chart;
+use App\Data\DataCSV;
 use Illuminate\Http\Request;
 
 class ChartController extends Controller
@@ -15,8 +16,8 @@ class ChartController extends Controller
     public function index()
     {
 
-        $chart = new Chart();
-
+        $chart = new Chart([],new DataCSV());
+//        dd($chart->getData());
         //        dd($data);
         $chart1 = \Chart::title(['text' => 'Temper Chart',])
             ->chart(['type' => 'line', 'renderTo' => 'chart1',])
